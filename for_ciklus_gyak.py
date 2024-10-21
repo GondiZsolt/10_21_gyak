@@ -34,7 +34,10 @@ def harmadik():
     n_szam = 10
     osszeg = 0
     for i in range(1, n_szam + 1):
+        osszeg = osszeg + 1
 
+    atlag = osszeg / n_szam
+    print(f"{n_szam} szám átlaga:{atlag}")
 
 """
 4. Egymásba ágyazott for ciklusok: szorzótábla megjelenítése
@@ -47,6 +50,7 @@ Szorzótábla 1-től 10-ig:
 10 × 1 = 10, 10 × 2 = 20, ..., 10 × 10 = 100
 """
 
+def negyedik()
 
 
 """
@@ -57,5 +61,5 @@ Fibonacci-sorozat első 10 száma: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34
 """
 
 # masodik()
-harmadik()
-
+# harmadik()
+negyedik()
