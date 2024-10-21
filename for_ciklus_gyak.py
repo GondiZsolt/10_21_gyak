@@ -50,8 +50,10 @@ Szorzótábla 1-től 10-ig:
 10 × 1 = 10, 10 × 2 = 20, ..., 10 × 10 = 100
 """
 
-def negyedik()
-
+def negyedik():
+    szam1 = 1
+    for i in range(1, 11):
+        print(f"{szam1} x {i} = {szam1 * i}")
 
 """
 5. Fibonacci-sorozat generálása
