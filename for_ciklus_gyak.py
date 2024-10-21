@@ -51,9 +51,14 @@ Szorzótábla 1-től 10-ig:
 """
 
 def negyedik():
-    szam1 = 1
+    # szam1 = 1
+    # for i in range(1, 11):
+    #     print(f"{szam1} x {i} = {szam1 * i}")
+
     for i in range(1, 11):
-        print(f"{szam1} x {i} = {szam1 * i}")
+        for j in range(1, 11):
+            print(f"{i} x {j} = {i * j}", end="   ")
+        print()
 
 """
 5. Fibonacci-sorozat generálása
